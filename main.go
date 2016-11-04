@@ -39,11 +39,11 @@ func init() {
 			"The resulting qif file can be imported into You Need A Budget (YNAB)\n"+
 			"Simple usage: Drag and drop your csv file on %s (or run this utility with only a csv filename as argument)\n"+
 
-			"\nExample: csv2qif.exe NL09INGB123567890_03-10-2016_03-11-2016.csv\n\n"+
+			"\nExample: csv2qif.exe NL09INGB1234567890_03-10-2016_03-11-2016.csv\n\n"+
 			"Advanced usage: open a commandline and use the following parameters to customize the qif output\n\n", os.Args[0])
 
 		flag.PrintDefaults()
-		fmt.Fprintf(os.Stderr, "\nExample: csv2qif.exe -i NL09INGB123567890_03-10-2016_03-11-2016.csv -outFile export.qif -useCode true -useComment true\n\n")
+		fmt.Fprintf(os.Stderr, "\nExample: csv2qif.exe -i NL09INGB1234567890_03-10-2016_03-11-2016.csv -outFile export.qif -useCode true -useComment true\n\n")
 	}
 
 	flag.StringVar(&inFile, "i", "", "The name of the CSV file to read.\n\tThis argument is mandatory.")
