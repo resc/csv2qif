@@ -7,7 +7,7 @@ The code doesn't use any platform-specific code so you should be able to compile
 
 Help
 ====
-
+<pre>
 This utility is for converting ING bank transaction csv files to a qif file.
 The resulting qif file can be imported into You Need A Budget (YNAB)
 Simple usage: Drag and drop your csv file on C:\path\to\csv2qif.exe (or run this utility with only a csv filename as argument)
@@ -36,5 +36,5 @@ Advanced usage: open a commandline and use the following parameters to customize
 	This argument is optional. (default true)
 
 Example: csv2qif.exe -i NL09INGB1234567890_03-10-2016_03-11-2016.csv -outFile export.qif -useCode true -useComment true
-
+</pre>
 
