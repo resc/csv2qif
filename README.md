@@ -8,7 +8,7 @@ The code doesn't use any platform-specific code so you should be able to compile
 How-To
 ======
 - Download the csv2qif-win32zip or csv2qif-win64.zip file and extract the executable from it.
-- Download your transactions via the "Af- en bijschrijvingen downloaden" menu item on the left bottom of https://bankieren.mijn.ing.nl/particulier/betalen/index and save it somewhere.
+- Download your transactions as csv via the "Af- en bijschrijvingen downloaden" menu item on the left bottom of https://bankieren.mijn.ing.nl/particulier/betalen/index and save it somewhere.
 - Drop the downloaded csv file on the csv2qif.exe, a new qif file with the same name should appear next to it.
 - Import the qif file into YNAB.
 - Done!
