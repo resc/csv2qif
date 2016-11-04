@@ -189,6 +189,7 @@ type (
 )
 
 // QifRecord returns the record as a qif formatted record string
+// I used trail and error and https://en.wikipedia.org/wiki/Quicken_Interchange_Format to write this function.
 func (r *Record) QifRecord() string {
 
 	comments := make([]string, 0, 3)
