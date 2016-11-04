@@ -3,7 +3,7 @@ ING bank csv export file to qif converter. I use this to import ING data into Yo
 
 Download the zip files for a precompiled binary.
 
-The code doesn't use any  specific code so you should be able to compile it on any  go -supported platform.
+The code doesn't use any platform-specific code so you should be able to compile it on any go-supported platform.
 
 Help
 ====
