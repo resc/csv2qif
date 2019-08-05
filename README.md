@@ -1,5 +1,5 @@
 # csv2qif
-ING bank csv export file to qif converter. I use this to import ING data into You Need A Budget (YNAB)
+ING bank csv export file to [qif](https://en.wikipedia.org/wiki/Quicken_Interchange_Format) converter. I use this to import ING data into You Need A Budget (YNAB)
 
 Download the zip files for a precompiled binary.
 
